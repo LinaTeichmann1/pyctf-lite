@@ -80,6 +80,8 @@ def getfidrot(p1, p2):
     print("Total rotation = {:4.2f} degrees, translation = {:4.2f} cm".format(theta, dist))
 
     #p2new = r.dot(p1.T).T + t  # this transforms p1 towards p2
+    
+    return theta, dist
 
 if __name__ == '__main__':
     p1 = np.array([
